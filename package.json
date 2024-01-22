@@ -1,0 +1,24 @@
+{
+  "name": "vscode-on-ec2-for-prototyping",
+  "private": true,
+  "version": "0.1.0",
+  "bin": {
+    "vscode-on-ec2-for-prototyping": "bin/vscode-on-ec2-for-prototyping.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.5",
+    "aws-cdk": "2.122.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.3.3"
+  },
+  "dependencies": {
+    "aws-cdk-lib": "2.122.0",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
