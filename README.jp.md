@@ -23,7 +23,7 @@
 まずはこのリポジトリを clone してください。
 
 ```bash
-git clone <TBD>
+git clone https://github.com/aws-samples/vscode-on-ec2-for-prototyping
 ```
 
 アプリケーションは [AWS Cloud Development Kit](https://aws.amazon.com/jp/cdk/)（以降 CDK）を利用してデプロイします。実行には Node.js が必要です。まず、以下のコマンドを実行してください。全てのコマンドはリポジトリのルートで実行してください。

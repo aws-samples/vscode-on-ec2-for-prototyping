@@ -25,7 +25,7 @@ If it is difficult to prepare the environment locally, [CloudShell](https://cons
 First, clone this repository.
 
 ```bash
-git clone <TBD>
+git clone https://github.com/aws-samples/vscode-on-ec2-for-prototyping
 ```
 
 The application uses the [AWS Cloud Development Kit](https://aws.amazon.com/cdk/)(CDK) for deployment. Node.js is required to run. First, run the following command. Run all commands from the root of the repository.
